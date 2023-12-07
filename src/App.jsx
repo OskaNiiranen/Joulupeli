@@ -7,7 +7,7 @@ function App() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
-    const audioElement = new Audio('/jingle-bells-xmas-background-music-60-second-for-short-video-vlog-178759.mp3');
+    const audioElement = new Audio('/joulupeli/jingle-bells-xmas-background-music-60-second-for-short-video-vlog-178759.mp3');
     audioElement.loop = true;
     audioElement.volume = 0.5;
     setAudio(audioElement);
