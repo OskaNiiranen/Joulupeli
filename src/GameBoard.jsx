@@ -136,7 +136,7 @@ const GameBoard = () => {
       {cards.map((card) => (
         <Card key={card.id} card={card} onClick={() => handleCardClick(card.id)} />
       ))}
-      <audio ref={audioRef} src="/joulupeli/Card-flip-sound-effect.mp3" />
+      <audio ref={audioRef} src='/joulupeli/Card-flip-sound-effect.mp3' />
       <audio ref={failureSoundRef} src="/joulupeli/failure-drum-sound-effect.mp3" />
       <audio ref={matchSoundRef} src="/joulupeli/match-sound-effect.mp3" />
       <audio ref={tadaSoundRef} src="/joulupeli/tada-fanfare.mp3" />
